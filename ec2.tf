@@ -10,6 +10,7 @@ resource "aws_instance" "hello-world" {
  key_name = "terraform"
  tags = {
 	 Name = "Hello-world"
+	 Project = "terraform-cloud"
  }
 
 }
