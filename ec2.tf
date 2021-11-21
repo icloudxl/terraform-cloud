@@ -11,6 +11,7 @@ resource "aws_instance" "hello-world" {
  tags = {
 	 Name = "Hello-world"
 	 Project = "terraform-cloud"
+	 Project-code = 9001
  }
 
 }
